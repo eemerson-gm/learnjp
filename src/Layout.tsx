@@ -18,18 +18,18 @@ const Layout = () => (
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color='foreground' href='/'>
+          <Link color='foreground' href='/learn'>
             Learn
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color='foreground' href='/'>
+          <Link color='foreground' href='/kanji'>
             Kanji
           </Link>
         </NavbarItem>
       </NavbarContent>
     </Navbar>
-    <main className='max-w-[1024px] mx-auto'>
+    <main className='max-w-[1024px] mx-auto mt-4'>
       <Outlet />
     </main>
   </>

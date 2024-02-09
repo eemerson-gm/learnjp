@@ -4,6 +4,7 @@ import { Home } from './pages/Home';
 import './App.css';
 import { ThemeProvider } from 'next-themes';
 import { Layout } from './Layout';
+import { Kanji } from './pages/Kanji';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<Layout />}>
               <Route index element={<Home />} />
+              <Route path='/kanji' element={<Kanji />} />
             </Route>
           </Routes>
         </BrowserRouter>
