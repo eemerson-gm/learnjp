@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import { Kanji } from './Kanji';
-import { Hiragana } from '../data/Hiragana';
+import { Hiragana } from '../../data/Hiragana';
 import userEvent from '@testing-library/user-event';
-import { Katakana } from '../data/Katakana';
+import { Katakana } from '../../data/Katakana';
 
 describe('Kanji Page', () => {
   it('renders the hiragana alphabet', () => {

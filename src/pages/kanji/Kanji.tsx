@@ -1,6 +1,6 @@
 import { Card, CardBody, Tab, Tabs } from '@nextui-org/react';
-import { Hiragana } from '../data/Hiragana';
-import { Katakana } from '../data/Katakana';
+import { Hiragana } from '../../data/Hiragana';
+import { Katakana } from '../../data/Katakana';
 
 const Kanji = () => {
   return (
